@@ -5,7 +5,7 @@
 				public function __construct(){
 					$this->load->database();
 				}
-		}
+		
 		
 		public function get_news($slug = FALSE)
 {
@@ -33,5 +33,5 @@ public function set_news()
 
     return $this->db->insert('news', $data);
 }
-
+}
 ?>
